@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "mbg": "./bin/cli.js"
+    "mbg": "bin/cli.js"
   },
   "files": [
     "bin/",
@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slendertaker/mbg.git"
+    "url": "git+https://github.com/slendertaker/mbg.git"
   },
   "homepage": "https://github.com/slendertaker/mbg#readme",
   "bugs": {
