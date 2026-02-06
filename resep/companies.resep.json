@@ -1,0 +1,17 @@
+{
+  "menu": "companies",
+  "sekolah": "public.companies",
+  "bahan": {
+    "id": { "tipe": "uuid" },
+    "nama": { "tipe": "perusahaan" },
+    "email": { "tipe": "email" },
+    "telepon": { "tipe": "telepon" },
+    "alamat": { "tipe": "alamat" },
+    "kota": { "tipe": "kota" },
+    "provinsi": { "tipe": "provinsi" },
+    "website": { "tipe": "url" },
+    "karyawan": { "tipe": "angka", "min": 5, "max": 5000 },
+    "aktif": { "tipe": "boolean", "rasio_benar": 0.95 },
+    "didirikan": { "tipe": "tanggal", "dari": "1990-01-01", "sampai": "2024-12-31" }
+  }
+}

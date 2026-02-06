@@ -1,0 +1,15 @@
+{
+  "menu": "users",
+  "sekolah": "public.users",
+  "bahan": {
+    "id": { "tipe": "uuid" },
+    "nama": { "tipe": "nama_lengkap" },
+    "email": { "tipe": "email" },
+    "telepon": { "tipe": "telepon" },
+    "alamat": { "tipe": "alamat" },
+    "peran": { "tipe": "pilihan", "opsi": ["admin", "user", "moderator"] },
+    "gaji": { "tipe": "angka", "min": 3000000, "max": 50000000 },
+    "aktif": { "tipe": "boolean", "rasio_benar": 0.85 },
+    "dibuat_pada": { "tipe": "tanggal", "dari": "2024-01-01", "sampai": "2025-12-31" }
+  }
+}

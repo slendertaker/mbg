@@ -1,0 +1,16 @@
+{
+  "menu": "products",
+  "sekolah": "public.products",
+  "bahan": {
+    "id": { "tipe": "uuid" },
+    "kode": { "tipe": "increment", "mulai": 1001 },
+    "nama": { "tipe": "kalimat" },
+    "deskripsi": { "tipe": "paragraf", "kalimat": 3 },
+    "harga": { "tipe": "angka", "min": 10000, "max": 5000000 },
+    "stok": { "tipe": "angka", "min": 0, "max": 1000 },
+    "kategori": { "tipe": "pilihan", "opsi": ["elektronik", "fashion", "makanan", "kesehatan", "rumah tangga"] },
+    "tersedia": { "tipe": "boolean", "rasio_benar": 0.9 },
+    "warna": { "tipe": "warna" },
+    "dibuat_pada": { "tipe": "waktu", "dari": "2024-01-01T00:00:00Z", "sampai": "2025-12-31T23:59:59Z" }
+  }
+}

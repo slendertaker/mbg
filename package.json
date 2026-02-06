@@ -1,0 +1,39 @@
+{
+  "name": "makan-bergizi-gratis",
+  "version": "1.0.0",
+  "description": "Database Seeder CLI — Menyajikan data berkualitas untuk database Anda.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "mbg": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "resep/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "database",
+    "seeder",
+    "faker",
+    "mock-data",
+    "testing",
+    "indonesia",
+    "cli",
+    "data-generator"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

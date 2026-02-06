@@ -1,0 +1,17 @@
+{
+  "menu": "orders",
+  "sekolah": "public.orders",
+  "bahan": {
+    "id": { "tipe": "uuid" },
+    "nomor_pesanan": { "tipe": "increment", "mulai": 10001 },
+    "pelanggan_id": { "tipe": "uuid" },
+    "produk_id": { "tipe": "uuid" },
+    "jumlah": { "tipe": "angka", "min": 1, "max": 10 },
+    "total": { "tipe": "angka", "min": 50000, "max": 10000000 },
+    "status": { "tipe": "pilihan", "opsi": ["pending", "diproses", "dikirim", "selesai", "dibatalkan"] },
+    "alamat_kirim": { "tipe": "alamat" },
+    "telepon": { "tipe": "telepon" },
+    "catatan": { "tipe": "kalimat" },
+    "tanggal_pesan": { "tipe": "waktu", "dari": "2024-06-01T00:00:00Z", "sampai": "2025-12-31T23:59:59Z" }
+  }
+}
