@@ -30,10 +30,14 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "author": "",
+  "author": "slendertaker",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/slendertaker/mbg.git"
+  },
+  "homepage": "https://github.com/slendertaker/mbg#readme",
+  "bugs": {
+    "url": "https://github.com/slendertaker/mbg/issues"
   }
 }
