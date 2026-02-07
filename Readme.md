@@ -7,7 +7,7 @@ MBG adalah Database Seeder CLI untuk ekosistem JavaScript. Dirancang untuk menya
 ## Instalasi
 
 ```bash
-npm install -g mbg
+npm install -g makan-bergizi-gratis
 ```
 
 Atau gunakan langsung dengan npx:
